@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Progress Tracker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome!</h1>
-  <p>Testing website pages 1,2,3.</p>
+  <header>
+    <h1>My Progress Tracker</h1>
+    <p>Drag the cards to reorder your progress entries!</p>
+  </header>
+
+  <main id="progress-container">
+    <!-- Example entry -->
+    <div class="card" draggable="true">
+      <h2>Day 1: Started GitHub Pages</h2>
+      <p>Today I set up my GitHub Pages site. Excited to track my progress!</p>
+    </div>
+
+    <div class="card" draggable="true">
+      <h2>Day 2: Learned HTML & CSS basics</h2>
+      <p>Created my first card and styled it. Feeling motivated!</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 My Progress Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
